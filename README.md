@@ -1,5 +1,5 @@
 # BundleDotNet #
-**BundleDotNet** is an C# implementation of the `Bundle` class [you can find](http://developer.android.com/reference/android/os/Bundle.html) on the Android SDK. 
+**BundleDotNet** is a C# implementation of the `Bundle` class [you can find](http://developer.android.com/reference/android/os/Bundle.html) on the Android SDK. 
 It basically is a wrapper around a `HashSet` that leverages you from casting the returned object.
 
 ## Information ##
@@ -88,12 +88,13 @@ Other methods are:
 - `remove(String key)`
 
 ## Version History ##
-- 1.0.0: released on 01/23/2013.
+- 1.1.0 (2015-02-12): put generic object via `BundleBuilder`.
+- 1.0.0 (2013-01-23): first release.
 
 ## License ##
 Released under the [MIT license](http://www.opensource.org/licenses/mit-license.php).
 
-Copyright (c) 2013 Francesco Pontillo
+Copyright (c) 2015 Francesco Pontillo
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
