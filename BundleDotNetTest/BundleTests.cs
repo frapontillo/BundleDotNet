@@ -1,6 +1,5 @@
-﻿using System;
+﻿using Draco.DroidDotNet;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Draco.DroidDotNet;
 
 namespace BundleDotNetTest {
     [TestClass]

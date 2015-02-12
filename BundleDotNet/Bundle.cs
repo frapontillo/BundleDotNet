@@ -7,8 +7,8 @@ namespace Draco.DroidDotNet {
     /// Wrapper around a HashSet with convenience methods to avoid casting and defaulting.
     /// </summary>
     public class Bundle {
-        private Dictionary<string, object> mDict = null;
-        private HashSet<string> mKeySet = null;
+        private Dictionary<string, object> mDict;
+        private HashSet<string> mKeySet;
 
         /// <summary>
         /// Constructs a new, empty <see cref="Bundle" />.

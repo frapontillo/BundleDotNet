@@ -42,6 +42,19 @@ namespace Draco.DroidDotNet {
         }
 
         /// <summary>
+        /// Inserts a generic object into the mapping of the Bundle,
+        /// replacing any existing value for the given key. 
+        /// Either key or value may be null.
+        /// </summary>
+        /// <param name="key">a String, or null.</param>
+        /// <param name="value">an object, or null.</param>
+        /// <returns>The current BundleBuilder.</returns>
+        public BundleBuilder put(String key, object value) {
+            mBundle.put(key, value);
+            return this;
+        }
+
+        /// <summary>
         /// Inserts all mappings from the given Bundle into this Bundle.
         /// </summary>
         /// <param name="bundle">a bundle</param>
